@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif, sans-serif;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  width: 5%;
+  color: #ffa372;
+  border-style: none;
+  border-top: 10px dotted;
+  margin: 1.5em auto;
+}
+footer {
+
+}
+.normal-font {
+  font-weight: normal;
+}
+
+.top_container {
+  background-color: #a2d5f2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto 10% auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.icon {
+  width: 200px;
+}
+
+.skills {
+  overflow: auto;
+}
+
+.center-text {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.middle_container {
+  background-color: #f1f3de;
+}
+
+.bottom_container {
+  background-color: #f8bd7f;
+  position: absolute;
+  width: 100%;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skillpic1 {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.skillpic2 {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.skillp2 {
+  text-align: right;
+  clear: left;
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #11999E;
+  margin: 0 0.3em 1em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #11999E;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button1:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+  a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+.links {
+  margin-top:1em;
+}
+.footer-link {
+  background-color:inherit;
+  text-decoration: none;
+  border:1px solid #11999E;
+  font-weight: bold;
+  margin: 0 30px;
+}
+.footer-link:hover {
+  background-color: white;
+}
+.mypic {
+  margin-top:2em;
+}
+.copy {
+  color:#11999E;
+}
+.bold {
+  font-weight: bold;
+}
+/* .intro {
+  position: relative;
+  top: 100px;
+} */
